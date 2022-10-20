@@ -18,23 +18,3 @@ $data = json_decode($response, true);
 echo $data['users'][0]['id']. "<br>";
 echo $data['users'][0]['username']. "<br>";
 echo $data['users'][0]['email']. "<br>";
-//$data = var_dump($response);
-
-
-//$data = json_encode($response);
-
-//$nuni = var_dump($response);
-
-
-
- //$object = (object) $response ;
-
-
-
-// $obj = new stdClass(); //convert array response to array
-//         foreach ((array) $o  as $res => $usr){
-//             $obj->$res = $usr;
-            
-//             echo "Checking for user: ". $usr->firstname . " ". $usr->lastname . " ". $usr->email . "<br><br>";
-//         }
-
